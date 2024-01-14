@@ -6,7 +6,7 @@ The Convo App Development Project is dedicated to creating a user-friendly mobil
 
 ## Description
 
-The Convo App Development Project is an ambitious initiative to develop a mobile application that enhances communication experiences. The app is designed with an intuitive interface, allowing users to engage in real-time conversations with friends and peers. Personalization features enable users to customize their profiles, tailoring their Convo experience. We prioritize user privacy and data security, utilizing the power of Swift programming language and Firebase for real-time data synchronization and authentication.
+The Convo App prioritizes user privacy by avoiding data synchronization. With a focus on confidentiality, our app provides a secure and private platform for real-time conversations without collecting or tailoring user data. Utilizing the Swift programming language, we ensure a seamless and privacy-focused user experience.
 
 ## Getting Started
 
