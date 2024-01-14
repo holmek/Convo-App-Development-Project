@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5040EC7A29A180A400CCB7F0 /* StudentCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040EC7929A180A400CCB7F0 /* StudentCardView.swift */; };
+		5040EC7C29A1819B00CCB7F0 /* StudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040EC7B29A1819B00CCB7F0 /* StudentView.swift */; };
+		5040EC7E29A1821F00CCB7F0 /* SocialAndPoliticalCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040EC7D29A1821F00CCB7F0 /* SocialAndPoliticalCardView.swift */; };
+		5040EC8029A1823100CCB7F0 /* SocialAndPoliticalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040EC7F29A1823100CCB7F0 /* SocialAndPoliticalView.swift */; };
+		5040EC8229A1844C00CCB7F0 /* HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040EC8129A1844C00CCB7F0 /* HealthView.swift */; };
+		5040EC8429A1845800CCB7F0 /* HealthCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040EC8329A1845800CCB7F0 /* HealthCardView.swift */; };
+		5040EC8629A18B3100CCB7F0 /* SportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040EC8529A18B3100CCB7F0 /* SportsView.swift */; };
+		5040EC8829A18B5900CCB7F0 /* SportsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040EC8729A18B5900CCB7F0 /* SportsCardView.swift */; };
+		5040EC8A29A18BD200CCB7F0 /* SocialMediaCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040EC8929A18BD200CCB7F0 /* SocialMediaCardView.swift */; };
+		5040EC8C29A18BE600CCB7F0 /* SocialMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040EC8B29A18BE600CCB7F0 /* SocialMediaView.swift */; };
+		5040EC8E29A19B7C00CCB7F0 /* MentalHealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040EC8D29A19B7C00CCB7F0 /* MentalHealthView.swift */; };
+		5040EC9029A19B8F00CCB7F0 /* MentalHealthCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040EC8F29A19B8F00CCB7F0 /* MentalHealthCardView.swift */; };
+		5040EC9229A1A48700CCB7F0 /* PrimarySchoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040EC9129A1A48700CCB7F0 /* PrimarySchoolView.swift */; };
+		5040EC9429A1A4B200CCB7F0 /* PrimarySchoolCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040EC9329A1A4B200CCB7F0 /* PrimarySchoolCardView.swift */; };
+		5040EC9629A1A4D800CCB7F0 /* HøjskoleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040EC9529A1A4D800CCB7F0 /* HøjskoleCardView.swift */; };
+		5040EC9829A1A4EF00CCB7F0 /* HøjskoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040EC9729A1A4EF00CCB7F0 /* HøjskoleView.swift */; };
+		5040EC9A29A1A53600CCB7F0 /* SingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040EC9929A1A53600CCB7F0 /* SingleView.swift */; };
+		5040EC9C29A1A54100CCB7F0 /* SingleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040EC9B29A1A54100CCB7F0 /* SingleCardView.swift */; };
+		5040EC9E29A1A5BA00CCB7F0 /* RelationshipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040EC9D29A1A5BA00CCB7F0 /* RelationshipView.swift */; };
+		5040ECA029A1A5C700CCB7F0 /* RelationshipCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040EC9F29A1A5C700CCB7F0 /* RelationshipCardView.swift */; };
+		5040ECA629A1A64A00CCB7F0 /* BestFriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040ECA529A1A64A00CCB7F0 /* BestFriendsView.swift */; };
+		5040ECA829A1A66000CCB7F0 /* BestFriendsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040ECA729A1A66000CCB7F0 /* BestFriendsCardView.swift */; };
+		5040ECAA29A1A69200CCB7F0 /* NewFriendsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040ECA929A1A69200CCB7F0 /* NewFriendsCardView.swift */; };
+		5040ECAC29A1A6A100CCB7F0 /* NewFriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040ECAB29A1A6A100CCB7F0 /* NewFriendsView.swift */; };
+		5040ECAE29A1A6C000CCB7F0 /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040ECAD29A1A6C000CCB7F0 /* MusicView.swift */; };
+		5040ECB029A1A6D400CCB7F0 /* MusicCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040ECAF29A1A6D400CCB7F0 /* MusicCardView.swift */; };
+		5040ECB629A1D26B00CCB7F0 /* NotificationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5040ECB529A1D26B00CCB7F0 /* NotificationHelper.swift */; };
+		505E0A19299C530200C4CECA /* FriendsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505E0A18299C530200C4CECA /* FriendsCardView.swift */; };
+		505E0A1B299C574D00C4CECA /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505E0A1A299C574D00C4CECA /* FriendsView.swift */; };
+		505E0A1D299C5D8D00C4CECA /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505E0A1C299C5D8D00C4CECA /* TabBar.swift */; };
+		505E0A1F299C65AD00C4CECA /* FamilyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505E0A1E299C65AC00C4CECA /* FamilyView.swift */; };
+		505E0A21299C751A00C4CECA /* FamilyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505E0A20299C751A00C4CECA /* FamilyCardView.swift */; };
+		505E0A23299C9C3800C4CECA /* GymnasiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505E0A22299C9C3800C4CECA /* GymnasiumView.swift */; };
+		505E0A25299C9C5200C4CECA /* GymnasiumCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505E0A24299C9C5200C4CECA /* GymnasiumCardView.swift */; };
+		505E0A27299CA0DB00C4CECA /* UniversityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505E0A26299CA0DB00C4CECA /* UniversityView.swift */; };
+		505E0A29299CA19000C4CECA /* UniversityCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505E0A28299CA19000C4CECA /* UniversityCardView.swift */; };
+		50B916F229A00518001DED00 /* EfterskoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B916F129A00518001DED00 /* EfterskoleView.swift */; };
+		50B916F429A0100F001DED00 /* EfterskoleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B916F329A0100F001DED00 /* EfterskoleCardView.swift */; };
+		50EBB923299B35AF006A2542 /* Our_ConversationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EBB922299B35AF006A2542 /* Our_ConversationApp.swift */; };
+		50EBB925299B35AF006A2542 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EBB924299B35AF006A2542 /* ContentView.swift */; };
+		50EBB927299B35B1006A2542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50EBB926299B35B1006A2542 /* Assets.xcassets */; };
+		50EBB92A299B35B1006A2542 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50EBB929299B35B1006A2542 /* Preview Assets.xcassets */; };
+		50EBB935299B3771006A2542 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EBB934299B3771006A2542 /* HomeView.swift */; };
+		50EBB93E299B39F4006A2542 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EBB93D299B39F4006A2542 /* Data.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5040EC7929A180A400CCB7F0 /* StudentCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCardView.swift; sourceTree = "<group>"; };
+		5040EC7B29A1819B00CCB7F0 /* StudentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentView.swift; sourceTree = "<group>"; };
+		5040EC7D29A1821F00CCB7F0 /* SocialAndPoliticalCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialAndPoliticalCardView.swift; sourceTree = "<group>"; };
+		5040EC7F29A1823100CCB7F0 /* SocialAndPoliticalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialAndPoliticalView.swift; sourceTree = "<group>"; };
+		5040EC8129A1844C00CCB7F0 /* HealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthView.swift; sourceTree = "<group>"; };
+		5040EC8329A1845800CCB7F0 /* HealthCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthCardView.swift; sourceTree = "<group>"; };
+		5040EC8529A18B3100CCB7F0 /* SportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsView.swift; sourceTree = "<group>"; };
+		5040EC8729A18B5900CCB7F0 /* SportsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsCardView.swift; sourceTree = "<group>"; };
+		5040EC8929A18BD200CCB7F0 /* SocialMediaCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaCardView.swift; sourceTree = "<group>"; };
+		5040EC8B29A18BE600CCB7F0 /* SocialMediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaView.swift; sourceTree = "<group>"; };
+		5040EC8D29A19B7C00CCB7F0 /* MentalHealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthView.swift; sourceTree = "<group>"; };
+		5040EC8F29A19B8F00CCB7F0 /* MentalHealthCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthCardView.swift; sourceTree = "<group>"; };
+		5040EC9129A1A48700CCB7F0 /* PrimarySchoolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimarySchoolView.swift; sourceTree = "<group>"; };
+		5040EC9329A1A4B200CCB7F0 /* PrimarySchoolCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimarySchoolCardView.swift; sourceTree = "<group>"; };
+		5040EC9529A1A4D800CCB7F0 /* HøjskoleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HøjskoleCardView.swift"; sourceTree = "<group>"; };
+		5040EC9729A1A4EF00CCB7F0 /* HøjskoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HøjskoleView.swift"; sourceTree = "<group>"; };
+		5040EC9929A1A53600CCB7F0 /* SingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleView.swift; sourceTree = "<group>"; };
+		5040EC9B29A1A54100CCB7F0 /* SingleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCardView.swift; sourceTree = "<group>"; };
+		5040EC9D29A1A5BA00CCB7F0 /* RelationshipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationshipView.swift; sourceTree = "<group>"; };
+		5040EC9F29A1A5C700CCB7F0 /* RelationshipCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationshipCardView.swift; sourceTree = "<group>"; };
+		5040ECA529A1A64A00CCB7F0 /* BestFriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestFriendsView.swift; sourceTree = "<group>"; };
+		5040ECA729A1A66000CCB7F0 /* BestFriendsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestFriendsCardView.swift; sourceTree = "<group>"; };
+		5040ECA929A1A69200CCB7F0 /* NewFriendsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFriendsCardView.swift; sourceTree = "<group>"; };
+		5040ECAB29A1A6A100CCB7F0 /* NewFriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFriendsView.swift; sourceTree = "<group>"; };
+		5040ECAD29A1A6C000CCB7F0 /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
+		5040ECAF29A1A6D400CCB7F0 /* MusicCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCardView.swift; sourceTree = "<group>"; };
+		5040ECB529A1D26B00CCB7F0 /* NotificationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHelper.swift; sourceTree = "<group>"; };
+		505E0A18299C530200C4CECA /* FriendsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCardView.swift; sourceTree = "<group>"; };
+		505E0A1A299C574D00C4CECA /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		505E0A1C299C5D8D00C4CECA /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		505E0A1E299C65AC00C4CECA /* FamilyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyView.swift; sourceTree = "<group>"; };
+		505E0A20299C751A00C4CECA /* FamilyCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyCardView.swift; sourceTree = "<group>"; };
+		505E0A22299C9C3800C4CECA /* GymnasiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymnasiumView.swift; sourceTree = "<group>"; };
+		505E0A24299C9C5200C4CECA /* GymnasiumCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymnasiumCardView.swift; sourceTree = "<group>"; };
+		505E0A26299CA0DB00C4CECA /* UniversityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityView.swift; sourceTree = "<group>"; };
+		505E0A28299CA19000C4CECA /* UniversityCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityCardView.swift; sourceTree = "<group>"; };
+		50B916F129A00518001DED00 /* EfterskoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EfterskoleView.swift; sourceTree = "<group>"; };
+		50B916F329A0100F001DED00 /* EfterskoleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EfterskoleCardView.swift; sourceTree = "<group>"; };
+		50EBB91F299B35AF006A2542 /* Convo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Convo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EBB922299B35AF006A2542 /* Our_ConversationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Our_ConversationApp.swift; sourceTree = "<group>"; };
+		50EBB924299B35AF006A2542 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		50EBB926299B35B1006A2542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50EBB929299B35B1006A2542 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50EBB934299B3771006A2542 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		50EBB93D299B39F4006A2542 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50EBB91C299B35AF006A2542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50EBB916299B35AF006A2542 = {
+			isa = PBXGroup;
+			children = (
+				50EBB921299B35AF006A2542 /* Convo */,
+				50EBB920299B35AF006A2542 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50EBB920299B35AF006A2542 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50EBB91F299B35AF006A2542 /* Convo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50EBB921299B35AF006A2542 /* Convo */ = {
+			isa = PBXGroup;
+			children = (
+				50EBB922299B35AF006A2542 /* Our_ConversationApp.swift */,
+				50EBB930299B364B006A2542 /* Navigation */,
+				50EBB933299B375B006A2542 /* Views */,
+				50EBB926299B35B1006A2542 /* Assets.xcassets */,
+				50EBB928299B35B1006A2542 /* Preview Content */,
+			);
+			path = Convo;
+			sourceTree = "<group>";
+		};
+		50EBB928299B35B1006A2542 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				50EBB929299B35B1006A2542 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		50EBB930299B364B006A2542 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				50EBB924299B35AF006A2542 /* ContentView.swift */,
+				505E0A1C299C5D8D00C4CECA /* TabBar.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		50EBB933299B375B006A2542 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				50EBB934299B3771006A2542 /* HomeView.swift */,
+				505E0A1A299C574D00C4CECA /* FriendsView.swift */,
+				505E0A1E299C65AC00C4CECA /* FamilyView.swift */,
+				5040EC9129A1A48700CCB7F0 /* PrimarySchoolView.swift */,
+				50B916F129A00518001DED00 /* EfterskoleView.swift */,
+				505E0A22299C9C3800C4CECA /* GymnasiumView.swift */,
+				5040EC9729A1A4EF00CCB7F0 /* HøjskoleView.swift */,
+				505E0A26299CA0DB00C4CECA /* UniversityView.swift */,
+				5040EC7B29A1819B00CCB7F0 /* StudentView.swift */,
+				5040EC7F29A1823100CCB7F0 /* SocialAndPoliticalView.swift */,
+				5040EC8129A1844C00CCB7F0 /* HealthView.swift */,
+				5040EC8B29A18BE600CCB7F0 /* SocialMediaView.swift */,
+				5040EC8529A18B3100CCB7F0 /* SportsView.swift */,
+				5040EC8D29A19B7C00CCB7F0 /* MentalHealthView.swift */,
+				5040EC9929A1A53600CCB7F0 /* SingleView.swift */,
+				5040EC9D29A1A5BA00CCB7F0 /* RelationshipView.swift */,
+				5040ECA529A1A64A00CCB7F0 /* BestFriendsView.swift */,
+				5040ECAB29A1A6A100CCB7F0 /* NewFriendsView.swift */,
+				5040ECAD29A1A6C000CCB7F0 /* MusicView.swift */,
+				50EBB938299B393D006A2542 /* Components */,
+				50EBB93D299B39F4006A2542 /* Data.swift */,
+				5040ECB529A1D26B00CCB7F0 /* NotificationHelper.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		50EBB938299B393D006A2542 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				505E0A18299C530200C4CECA /* FriendsCardView.swift */,
+				505E0A20299C751A00C4CECA /* FamilyCardView.swift */,
+				5040EC9329A1A4B200CCB7F0 /* PrimarySchoolCardView.swift */,
+				50B916F329A0100F001DED00 /* EfterskoleCardView.swift */,
+				505E0A24299C9C5200C4CECA /* GymnasiumCardView.swift */,
+				5040EC9529A1A4D800CCB7F0 /* HøjskoleCardView.swift */,
+				505E0A28299CA19000C4CECA /* UniversityCardView.swift */,
+				5040EC7929A180A400CCB7F0 /* StudentCardView.swift */,
+				5040EC7D29A1821F00CCB7F0 /* SocialAndPoliticalCardView.swift */,
+				5040EC8329A1845800CCB7F0 /* HealthCardView.swift */,
+				5040EC8929A18BD200CCB7F0 /* SocialMediaCardView.swift */,
+				5040EC8729A18B5900CCB7F0 /* SportsCardView.swift */,
+				5040EC8F29A19B8F00CCB7F0 /* MentalHealthCardView.swift */,
+				5040EC9B29A1A54100CCB7F0 /* SingleCardView.swift */,
+				5040EC9F29A1A5C700CCB7F0 /* RelationshipCardView.swift */,
+				5040ECA729A1A66000CCB7F0 /* BestFriendsCardView.swift */,
+				5040ECA929A1A69200CCB7F0 /* NewFriendsCardView.swift */,
+				5040ECAF29A1A6D400CCB7F0 /* MusicCardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50EBB91E299B35AF006A2542 /* Convo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EBB92D299B35B1006A2542 /* Build configuration list for PBXNativeTarget "Convo" */;
+			buildPhases = (
+				50EBB91B299B35AF006A2542 /* Sources */,
+				50EBB91C299B35AF006A2542 /* Frameworks */,
+				50EBB91D299B35AF006A2542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Convo;
+			productName = "Our Conversation";
+			productReference = 50EBB91F299B35AF006A2542 /* Convo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50EBB917299B35AF006A2542 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					50EBB91E299B35AF006A2542 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 50EBB91A299B35AF006A2542 /* Build configuration list for PBXProject "Convo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50EBB916299B35AF006A2542;
+			productRefGroup = 50EBB920299B35AF006A2542 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50EBB91E299B35AF006A2542 /* Convo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50EBB91D299B35AF006A2542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EBB92A299B35B1006A2542 /* Preview Assets.xcassets in Resources */,
+				50EBB927299B35B1006A2542 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50EBB91B299B35AF006A2542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505E0A25299C9C5200C4CECA /* GymnasiumCardView.swift in Sources */,
+				5040ECA829A1A66000CCB7F0 /* BestFriendsCardView.swift in Sources */,
+				505E0A1F299C65AD00C4CECA /* FamilyView.swift in Sources */,
+				5040EC9429A1A4B200CCB7F0 /* PrimarySchoolCardView.swift in Sources */,
+				50B916F229A00518001DED00 /* EfterskoleView.swift in Sources */,
+				5040EC8E29A19B7C00CCB7F0 /* MentalHealthView.swift in Sources */,
+				5040ECB629A1D26B00CCB7F0 /* NotificationHelper.swift in Sources */,
+				505E0A29299CA19000C4CECA /* UniversityCardView.swift in Sources */,
+				5040EC8029A1823100CCB7F0 /* SocialAndPoliticalView.swift in Sources */,
+				50EBB935299B3771006A2542 /* HomeView.swift in Sources */,
+				5040ECAA29A1A69200CCB7F0 /* NewFriendsCardView.swift in Sources */,
+				5040EC9A29A1A53600CCB7F0 /* SingleView.swift in Sources */,
+				505E0A21299C751A00C4CECA /* FamilyCardView.swift in Sources */,
+				5040ECA629A1A64A00CCB7F0 /* BestFriendsView.swift in Sources */,
+				50EBB925299B35AF006A2542 /* ContentView.swift in Sources */,
+				5040EC9229A1A48700CCB7F0 /* PrimarySchoolView.swift in Sources */,
+				5040EC8229A1844C00CCB7F0 /* HealthView.swift in Sources */,
+				5040EC8629A18B3100CCB7F0 /* SportsView.swift in Sources */,
+				505E0A1B299C574D00C4CECA /* FriendsView.swift in Sources */,
+				5040EC8C29A18BE600CCB7F0 /* SocialMediaView.swift in Sources */,
+				505E0A23299C9C3800C4CECA /* GymnasiumView.swift in Sources */,
+				5040EC9829A1A4EF00CCB7F0 /* HøjskoleView.swift in Sources */,
+				5040ECAC29A1A6A100CCB7F0 /* NewFriendsView.swift in Sources */,
+				5040ECAE29A1A6C000CCB7F0 /* MusicView.swift in Sources */,
+				505E0A19299C530200C4CECA /* FriendsCardView.swift in Sources */,
+				505E0A27299CA0DB00C4CECA /* UniversityView.swift in Sources */,
+				5040ECA029A1A5C700CCB7F0 /* RelationshipCardView.swift in Sources */,
+				5040ECB029A1A6D400CCB7F0 /* MusicCardView.swift in Sources */,
+				5040EC7C29A1819B00CCB7F0 /* StudentView.swift in Sources */,
+				5040EC8429A1845800CCB7F0 /* HealthCardView.swift in Sources */,
+				50EBB923299B35AF006A2542 /* Our_ConversationApp.swift in Sources */,
+				5040EC7A29A180A400CCB7F0 /* StudentCardView.swift in Sources */,
+				5040EC9629A1A4D800CCB7F0 /* HøjskoleCardView.swift in Sources */,
+				5040EC8829A18B5900CCB7F0 /* SportsCardView.swift in Sources */,
+				5040EC9E29A1A5BA00CCB7F0 /* RelationshipView.swift in Sources */,
+				5040EC9C29A1A54100CCB7F0 /* SingleCardView.swift in Sources */,
+				50B916F429A0100F001DED00 /* EfterskoleCardView.swift in Sources */,
+				5040EC8A29A18BD200CCB7F0 /* SocialMediaCardView.swift in Sources */,
+				50EBB93E299B39F4006A2542 /* Data.swift in Sources */,
+				5040EC7E29A1821F00CCB7F0 /* SocialAndPoliticalCardView.swift in Sources */,
+				5040EC9029A19B8F00CCB7F0 /* MentalHealthCardView.swift in Sources */,
+				505E0A1D299C5D8D00C4CECA /* TabBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		50EBB92B299B35B1006A2542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50EBB92C299B35B1006A2542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50EBB92E299B35B1006A2542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Our Conversation/Preview Content\"";
+				DEVELOPMENT_TEAM = 6XTQ98822R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.holmdev.Our-Conversation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		50EBB92F299B35B1006A2542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Our Conversation/Preview Content\"";
+				DEVELOPMENT_TEAM = 6XTQ98822R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.holmdev.Our-Conversation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50EBB91A299B35AF006A2542 /* Build configuration list for PBXProject "Convo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EBB92B299B35B1006A2542 /* Debug */,
+				50EBB92C299B35B1006A2542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50EBB92D299B35B1006A2542 /* Build configuration list for PBXNativeTarget "Convo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EBB92E299B35B1006A2542 /* Debug */,
+				50EBB92F299B35B1006A2542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50EBB917299B35AF006A2542 /* Project object */;
+}
