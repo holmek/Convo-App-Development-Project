@@ -17,7 +17,7 @@ The Convo App prioritizes user privacy by avoiding data synchronization. With a 
 
 ### Installing
 
-1. Clone the repository: `git clone https://github.com/your-username/Convo-App-Development-Project.git`
+1. Clone the repository: `git clone https://github.com/holmek/Convo-App-Development-Project.git`
 2. Navigate to the project directory: `cd Convo-App-Development-Project`
 3. Open the Xcode project file: `open ConvoApp.xcodeproj`
 
@@ -32,7 +32,7 @@ open ConvoApp.xcodeproj
 
 ## Help
 
-If you encounter any issues or have questions, please refer to the [GitHub issue tracker](https://github.com/your-username/Convo-App-Development-Project/issues).
+If you encounter any issues or have questions, please refer to the [GitHub issue tracker](https://github.com/holmek/Convo-App-Development-Project/issues).
 
 ## Authors
 
